@@ -10,6 +10,16 @@ To run the project; clone the repo, and run `pod install` from the project direc
 
 ## Requirements
 
+Please sign-up for free to try FlightRecorder. You will need an access and a secret key.
+
+Sign-up Free : http://flightrecorder.co/Account/Signup
+
+Pro-Packages : http://www.flightrecorder.co/#price-list
+
+Quick Start Guide : http://help.flightrecorder.co/quick-start/
+
+Full Documentation : http://help.flightrecorder.co/
+
 ## Installation
 
 FlightRecorder is available through [CocoaPods](http://cocoapods.org). To install

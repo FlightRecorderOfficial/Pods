@@ -1,5 +1,5 @@
 # FlightRecorder CHANGELOG
 
-## 1.2.111
+## 1.2.114
 
-* Bug fix for Secure UITextFields
+* Major Bug fix for older devices, iPhone 4 and 4S
