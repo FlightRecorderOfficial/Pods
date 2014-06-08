@@ -4,7 +4,7 @@
 //
 //  Created by Davut Can Abacigil on 9/11/13.
 //  Copyright (c) 2013 Abacigil. All rights reserved.
-//  Version : 1.2.114
+//  Version : 1.2.134
 
 #import <Foundation/Foundation.h>
 
@@ -110,13 +110,17 @@ Show only logs, Show only warnings, etc.
  */
 -(void)trackEventWithCategory:(NSString *)category action:(NSString *)action label:(NSString *)label value:(NSString *)value;
 
+
+
+
 /* SDK has a stopwatch, so it returns current seconds for current session.
  If a session ends, stopwatch will be reset.
  */
 
 -(NSTimeInterval)getRunTime;
 
-
+-(void)startPrivacyWithUIControls:(NSArray *)controls;
+-(void)stopPrivacy;
 
 
 @end

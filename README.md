@@ -6,7 +6,7 @@
 
 ## Usage
 
-To run the project; clone the repo, and run `pod install` from the project directory first.
+Quick Start Guide : http://help.flightrecorder.co/quick-start/
 
 ## Requirements
 
