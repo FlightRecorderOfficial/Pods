@@ -1,5 +1,9 @@
 # FlightRecorder CHANGELOG
 
+## 1.2.136
+
+* Secure UITextFields bug fix
+
 ## 1.2.134
 
 * Privacy option added for any UITextField.
