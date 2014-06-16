@@ -1,5 +1,9 @@
 # FlightRecorder CHANGELOG
 
+## 1.2.148
+
+* Major performance updates and flexible performance options added
+
 ## 1.2.138
 
 * Secure UITextFields bug fix
