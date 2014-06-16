@@ -1,6 +1,6 @@
 # FlightRecorder CHANGELOG
 
-## 1.2.148
+## 1.2.150
 
 * Major performance updates and flexible performance options added
 

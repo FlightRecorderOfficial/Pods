@@ -4,7 +4,7 @@
 //
 //  Created by Davut Can Abacigil on 9/11/13.
 //  Copyright (c) 2013 Abacigil. All rights reserved.
-//  Version : 1.2.148
+//  Version : 1.2.150
 
 #import <Foundation/Foundation.h>
 
@@ -20,10 +20,10 @@ typedef enum FE_LOG_LEVEL
 
 typedef enum FE_QUALITY
 {
-    FE_QUALITY_HD,
     FE_QUALITY_LOW,
     FE_QUALITY_MEDIUM,
-    FE_QUALITY_HIGH
+    FE_QUALITY_HIGH,
+    FE_QUALITY_HD
 }FE_QUALITY;
 
 @interface FlightRecorder : NSObject
