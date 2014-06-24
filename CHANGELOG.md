@@ -1,5 +1,9 @@
 # FlightRecorder CHANGELOG
 
+## 1.2.152
+
+* SDK now logs iOS Ad Tracking ID
+
 ## 1.2.150
 
 * Major performance updates and flexible performance options added
