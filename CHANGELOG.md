@@ -1,8 +1,12 @@
 # FlightRecorder CHANGELOG
 
+## 1.2.166
+
+* Minor Bug fixes
+
 ## 1.2.164
 
-* Minor Bux fixes
+* Minor Bug fixes
 
 ## 1.2.150
 
