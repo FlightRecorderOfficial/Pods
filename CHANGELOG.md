@@ -1,5 +1,11 @@
 # FlightRecorder CHANGELOG
 
+## 1.2.182
+
+* Now you can save users’ device token and send push messages from FlightRecorder.
+* You may set maximum session time.
+* Minor bug fixes and performance improvements.
+
 ## 1.2.166
 
 * Minor Bug fixes

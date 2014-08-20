@@ -4,7 +4,7 @@
 //
 //  Created by Davut Can Abacigil on 9/11/13.
 //  Copyright (c) 2013 Abacigil. All rights reserved.
-//  Version : 1.2.166
+//  Version : 1.2.182
 
 #import <Foundation/Foundation.h>
 
@@ -21,8 +21,11 @@ typedef enum FE_LOG_LEVEL
 typedef enum FE_QUALITY
 {
     FE_QUALITY_LOW,
+    FE_QUALITY_LOW_PLUS,
     FE_QUALITY_MEDIUM,
+    FE_QUALITY_MEDIUM_PLUS,
     FE_QUALITY_HIGH,
+    FE_QUALITY_HIGH_PLUS,
     FE_QUALITY_HD
 }FE_QUALITY;
 
@@ -40,7 +43,8 @@ typedef enum FE_QUALITY
 @property(nonatomic, readonly) NSString *SDKVersion;
 @property(nonatomic, assign) FE_LOG_LEVEL logLevel;
 @property(nonatomic, assign) FE_QUALITY quality;
-
+@property(nonatomic, assign) float maxSessionTime;
+@property(nonatomic, assign) BOOL isMaxSessionTimeEnabled;
 /* Returns the default singleton instance.
  */
 + (FlightRecorder *) sharedInstance;
@@ -120,7 +124,11 @@ Show only logs, Show only warnings, etc.
  */
 -(void)trackEventWithCategory:(NSString *)category action:(NSString *)action label:(NSString *)label value:(NSString *)value;
 
+/* Save the device token to send push messages from FlightRecorder
+ 
+ */
 
+-(void)setDeviceTokenFromData:(NSData *)deviceToken;
 
 
 /* SDK has a stopwatch, so it returns current seconds for current session.
