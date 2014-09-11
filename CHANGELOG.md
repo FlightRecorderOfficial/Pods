@@ -1,5 +1,11 @@
 # FlightRecorder CHANGELOG
 
+## 1.3
+
+* New Crash Report service added, now you can see the crash reports as same Apple’s format
+* Minor bug fixes
+* Performance improvements
+
 ## 1.2.182
 
 * Now you can save users’ device token and send push messages from FlightRecorder.
