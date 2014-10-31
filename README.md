@@ -20,6 +20,8 @@ Quick Start Guide : http://help.flightrecorder.co/quick-start/
 
 Full Documentation : http://help.flightrecorder.co/
 
+Discuss & Community : http://discuss.flightrecorder.co
+
 ## Installation
 
 FlightRecorder is available through [CocoaPods](http://cocoapods.org). To install

@@ -1,5 +1,10 @@
 # FlightRecorder CHANGELOG
 
+## 1.4.2
+
+* Performance improvements and bug fix
+* Bug fix for iPhone 6 and Plus devices
+
 ## 1.3
 
 * New Crash Report service added, now you can see the crash reports as same Apple’s format

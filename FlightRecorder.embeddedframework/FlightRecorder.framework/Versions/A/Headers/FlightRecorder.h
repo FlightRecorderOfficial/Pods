@@ -4,7 +4,7 @@
 //
 //  Created by Davut Can Abacigil on 9/11/13.
 //  Copyright (c) 2013 Abacigil. All rights reserved.
-//  Version : 1.3
+//  Version : 1.4.2
 
 #import <Foundation/Foundation.h>
 

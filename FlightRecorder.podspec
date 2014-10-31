@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "FlightRecorder"
-  s.version          = "1.3"
+  s.version          = "1.4.2"
   s.summary          = "Record user sessions into videos by adding just a few lines of code!"
   s.description      = <<-DESC
                        FlightRecorder is an iOS SDK that captures device screen with all user interactions, console output, location & other device informations and make them available to you on the web.
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   LICENSE
   }
   s.author           = { "FlightRecorder" => "support@flightrecorder.co" }
-  s.source           =  {:git => 'https://github.com/FlightRecorderOfficial/Pods.git', :tag => '1.3' }
-  # s.social_media_url = 'https://twitter.com/flightrecorder_'
+  s.source           =  {:git => 'https://github.com/FlightRecorderOfficial/Pods.git', :tag => '1.4.2' }
+	#s.social_media_url = 'https://twitter.com/flightrecorder_'
 
 	s.platform     = :ios, '7.0'
    # s.ios.deployment_target = '5.1'
