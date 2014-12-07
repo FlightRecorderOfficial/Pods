@@ -4,7 +4,7 @@
 //
 //  Created by Davut Can Abacigil on 9/11/13.
 //  Copyright (c) 2013 Abacigil. All rights reserved.
-//  Version : 1.4.2
+//  Version : 1.5.8
 
 #import <Foundation/Foundation.h>
 
@@ -45,6 +45,9 @@ typedef enum FE_QUALITY
 @property(nonatomic, assign) FE_QUALITY quality;
 @property(nonatomic, assign) float maxSessionTime;
 @property(nonatomic, assign) BOOL isMaxSessionTimeEnabled;
+@property(nonatomic, assign) BOOL disableCaptureOnUserActions;
+@property(nonatomic, assign) int dispatchInterval;
+@property(nonatomic, assign) id delegate;
 /* Returns the default singleton instance.
  */
 + (FlightRecorder *) sharedInstance;
@@ -137,8 +140,22 @@ Show only logs, Show only warnings, etc.
 
 -(NSTimeInterval)getRunTime;
 
--(void)startPrivacyWithUIControls:(NSArray *)controls;
--(void)stopPrivacy;
+/* Start hiding UITextField collection */
+
+-(void)startPrivacyForTextFields:(NSArray *)controls;
+
+/* Stop hiding UITextField collection */
+-(void)stopPrivacyForTextField;
 
 
+-(void)startPrivacyForViews:(NSArray *)views;
+
+-(void)stopPrivacyForViews;
+
+
+@end
+
+@protocol FlightRecorderDelegate <NSObject>
+- (void) flightrecorderDidStart;
+- (void) flightrecorderDidFail;
 @end
