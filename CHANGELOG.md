@@ -1,5 +1,9 @@
 # FlightRecorder CHANGELOG
 
+## 1.5.9
+
+* Minor Bug fixes
+
 ## 1.5.8
 
 * You can disable screen recording functionality remotely for specific devices.
