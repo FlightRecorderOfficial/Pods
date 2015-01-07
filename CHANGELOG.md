@@ -1,5 +1,10 @@
 # FlightRecorder CHANGELOG
 
+## 1.6.0
+
+* Minor Bug fixes
+* Performance improvements
+
 ## 1.5.9
 
 * Minor Bug fixes
