@@ -1,5 +1,9 @@
 # FlightRecorder CHANGELOG
 
+## 1.6.2
+
+* Now you can enable/disable FR SDK remotely by Device ID.
+
 ## 1.6.0
 
 * Minor Bug fixes
