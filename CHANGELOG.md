@@ -1,5 +1,10 @@
 # FlightRecorder CHANGELOG
 
+## 1.7.2
+
+* Bug fix, some users have a bug when UIActivityViewController is shown and dismissed
+* Critical performance improvements
+
 ## 1.6.2
 
 * Now you can enable/disable FR SDK remotely by Device ID.
