@@ -1,5 +1,8 @@
 # FlightRecorder CHANGELOG
 
+## 1.7.6
+*Bug fix
+
 ## 1.7.2
 
 * Bug fix, some users have a bug when UIActivityViewController is shown and dismissed
