@@ -1,7 +1,10 @@
 # FlightRecorder CHANGELOG
 
+## 1.7.6.1
+* Pod bug fix
+
 ## 1.7.6
-*Bug fix
+* Bug fix
 
 ## 1.7.2
 
