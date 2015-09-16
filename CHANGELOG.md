@@ -1,5 +1,12 @@
 # FlightRecorder CHANGELOG
 
+## 1.9.0
+* iOS 9.0 Support
+* With 1.9.0 version, you can see gestures, pinches, swipes while watching videos of your sessions.
+* Send push notifications and track openings
+* Performance improvements.
+* Bug fix.
+
 ## 1.7.6.1
 * Pod bug fix
 

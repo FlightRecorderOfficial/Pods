@@ -3,8 +3,8 @@
 //  FlightRecorder
 //
 //  Created by Davut Can Abacigil on 9/11/13.
-//  Copyright (c) 2014 FlightRecorder, Inc. All rights reserved.
-//  Version : 1.7.6
+//  Copyright (c) 2015 FlightRecorder, Inc. All rights reserved.
+//  Version : 1.9.0
 
 #import <Foundation/Foundation.h>
 
@@ -39,13 +39,13 @@ typedef enum FE_QUALITY
 @property (nonatomic, strong) NSString *secretKey;
 @property(nonatomic, strong) NSDictionary *userDefinedDictionary;
 @property(nonatomic, strong) NSString *userID;
-@property(nonatomic, assign) float recordingFPS;
+
+@property(nonatomic, assign) float recordingFPS  __attribute__((deprecated("You can set/change FPS value via your FlightRecorder Dashboard in Remote Configurations.")));
 @property(nonatomic, readonly) NSString *SDKVersion;
 @property(nonatomic, assign) FE_LOG_LEVEL logLevel;
-@property(nonatomic, assign) FE_QUALITY quality;
-@property(nonatomic, assign) float maxSessionTime;
-@property(nonatomic, assign) BOOL isMaxSessionTimeEnabled;
-@property(nonatomic, assign) BOOL disableCaptureOnUserActions;
+@property(nonatomic, assign) FE_QUALITY quality  __attribute__((deprecated("You can set/change Quality value via your FlightRecorder Dashboard in Remote Configurations.")));;
+@property(nonatomic, assign) float maxSessionTime __attribute__((deprecated("You can set/change Max Session Time in Seconds value via your FlightRecorder Dashboard in Remote Configurations.")));;
+@property(nonatomic, assign) BOOL disableCaptureOnUserActions __attribute__((deprecated("This method is not available anymore.")));;
 @property(nonatomic, assign) int dispatchInterval;
 @property(nonatomic, assign) id delegate;
 /* Returns the default singleton instance.
@@ -152,10 +152,15 @@ Show only logs, Show only warnings, etc.
 
 -(void)stopPrivacyForViews;
 
+-(void)trackPushNotificationOpeningWithLaunchOptions:(NSDictionary *)launchOptions;
+
+-(void)trackPushNotificationBackgroundWithUserInfo:(NSDictionary *)userInfo;
+
 
 @end
 
 @protocol FlightRecorderDelegate <NSObject>
+@optional
 - (void) flightrecorderDidStart;
 - (void) flightrecorderDidFail;
 @end
