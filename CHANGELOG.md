@@ -1,5 +1,8 @@
 # FlightRecorder CHANGELOG
 
+## 1.9.1
+- Xcode 7 compatible warnings fix
+
 ## 1.9.0
 * iOS 9.0 Support
 * With 1.9.0 version, you can see gestures, pinches, swipes while watching videos of your sessions.
