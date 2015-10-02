@@ -4,7 +4,7 @@
 //
 //  Created by Davut Can Abacigil on 9/11/13.
 //  Copyright (c) 2015 FlightRecorder, Inc. All rights reserved.
-//  Version : 1.9.1
+//  Version : 1.9.2
 
 #import <Foundation/Foundation.h>
 

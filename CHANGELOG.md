@@ -1,5 +1,8 @@
 # FlightRecorder CHANGELOG
 
+## 1.9.2
+- Bug fix
+
 ## 1.9.1
 - Xcode 7 compatible warnings fix
 
