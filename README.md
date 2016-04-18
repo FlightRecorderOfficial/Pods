@@ -4,36 +4,15 @@
 [![License](https://img.shields.io/cocoapods/l/FlightRecorder.svg?style=flat)](http://cocoadocs.org/docsets/FlightRecorder)
 [![Platform](https://img.shields.io/cocoapods/p/FlightRecorder.svg?style=flat)](http://cocoadocs.org/docsets/FlightRecorder)
 
-## Usage
+## FlightRecorder
 
-Quick Start Guide : http://help.flightrecorder.co/quick-start/
+We are excited to announce that FlightRecorder has been acquired by ClickTale,
+the leader in digital customer experience. The FlightRecorder solution you know will now
+be available as ClickTale for Apps.
 
-## Requirements
-
-Please sign-up for free to try FlightRecorder. You will need an access and a secret key.
-
-Sign-up Free : http://flightrecorder.co/Account/Signup
-
-Pro-Packages : http://www.flightrecorder.co/#price-list
-
-Quick Start Guide : http://help.flightrecorder.co/quick-start/
-
-Full Documentation : http://help.flightrecorder.co/
-
-Discuss & Community : http://discuss.flightrecorder.co
-
-## Installation
-
-FlightRecorder is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-    pod "FlightRecorder"
-
-## Author
-
-FlightRecorder, support@flightrecorder.co
+Please go to link for more about FlightRecorder: https://www.clicktale.com/solutions/clicktale-for-apps/
 
 ## License
 
-FlightRecorder is available under the Commercial license. See the LICENSE file for more info and visit http://www.flightrecorder.co/home/tos
 
+Please visit : https://www.clicktale.com/company/terms-of-use/

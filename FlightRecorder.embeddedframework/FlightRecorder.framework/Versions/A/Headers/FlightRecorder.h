@@ -156,6 +156,9 @@ Show only logs, Show only warnings, etc.
 
 -(void)trackPushNotificationBackgroundWithUserInfo:(NSDictionary *)userInfo;
 
+-(NSString *)getSessionLink;
+
+-(NSString *)getSessionID;
 
 @end
 
@@ -163,4 +166,6 @@ Show only logs, Show only warnings, etc.
 @optional
 - (void) flightrecorderDidStart;
 - (void) flightrecorderDidFail;
+- (void) flightrecorderDidSessionURLCreated:(NSString *)sessionLink;
+- (void) flightrecorderDidSessionIDCreated:(NSString *)currentSessionID;
 @end
