@@ -1,5 +1,9 @@
 # FlightRecorder CHANGELOG
 
+## 1.9.16
+
+- Auto Pageview Tracking added
+
 ## 1.9.6
 - Added 2 new methods, -getSessionLink and -getSessionID in FlightRecorder's shared instance.
 - Added 2 new delegates, -flightrecorderDidSessionURLCreated:(NSString *)sessionLink and -flightrecorderDidSessionIDCreated:(NSString *)currentSessionID

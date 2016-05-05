@@ -4,7 +4,7 @@
 //
 //  Created by Davut Can Abacigil on 9/11/13.
 //  Copyright (c) 2015 FlightRecorder, Inc. All rights reserved.
-//  Version : 1.9.2
+//  Version : 1.9.16
 
 #import <Foundation/Foundation.h>
 
@@ -81,7 +81,7 @@ typedef enum FE_QUALITY
  You may set name and value as you want.
  */
 
--(void)logWithName:(NSString *)name value:(NSString *)value;
+-(void)logWithName:(NSString *)name value:(NSString *)value __attribute__((deprecated("Use -trackEvent: or -trackEvent:value: method")));;
 
 /* A simple log method with NSDictionary or NSArray as value. Logs key and value at current time.
  For example; Name : "User Profile Loaded"
@@ -91,20 +91,20 @@ typedef enum FE_QUALITY
  You may set name and value as you want.
  */
 
--(void)logWithName:(NSString *)name object:(id)obj;
+-(void)logWithName:(NSString *)name object:(id)obj __attribute__((deprecated("Use -trackEvent: or -trackEvent:value: method")));;
 
 /* A simple log method for API Requests. Logs key and value at current time.
 
  */
 
--(void)logAPIRequestWithName:(NSString *)name url:(NSString *)url httpMethod:(NSString *)method requestBody:(NSString *)body requestHeaders:(NSDictionary *)requestHeaders responseStatusCode:(int)responseStatusCode responseString:(NSString *)responseString responseHeaders:(NSDictionary *)responseHeaders;
+-(void)logAPIRequestWithName:(NSString *)name url:(NSString *)url httpMethod:(NSString *)method requestBody:(NSString *)body requestHeaders:(NSDictionary *)requestHeaders responseStatusCode:(int)responseStatusCode responseString:(NSString *)responseString responseHeaders:(NSDictionary *)responseHeaders __attribute__((deprecated("This feature is deprecated")));;
 
 /* Same with log method. Logs key and value at current time.
  Only difference is you may want to filter these logs with their types on our web site.
 Show only logs, Show only warnings, etc.
  */
 
--(void)warningWithName:(NSString *)name value:(NSString *)value;
+-(void)warningWithName:(NSString *)name value:(NSString *)value __attribute__((deprecated("Use -trackEvent: or -trackEvent:value: method")));;
 
 /* Same with log method with NSDictionary or NSArray as value. Logs key and value at current time.
  
@@ -113,7 +113,7 @@ Show only logs, Show only warnings, etc.
  
  SDK serializes value object.
  */
--(void)warningWithName:(NSString *)name object:(id)obj;
+-(void)warningWithName:(NSString *)name object:(id)obj __attribute__((deprecated("Use -trackEvent: or -trackEvent:value: method")));;
 
 /* A simple log method. Logs application's page views.
  
@@ -125,7 +125,11 @@ Show only logs, Show only warnings, etc.
 /* A simple track event method. Log your custom events with this function
  
  */
--(void)trackEventWithCategory:(NSString *)category action:(NSString *)action label:(NSString *)label value:(NSString *)value;
+-(void)trackEventWithCategory:(NSString *)category action:(NSString *)action label:(NSString *)label value:(NSString *)value  __attribute__((deprecated("Use -trackEvent: or -trackEvent:value: method")));
+
+-(void)trackEvent:(NSString *)event;
+-(void)trackEvent:(NSString *)event value:(NSString *)value;
+
 
 /* Save the device token to send push messages from FlightRecorder
  
