@@ -1,5 +1,10 @@
 # FlightRecorder CHANGELOG
 
+## 1.9.24
+
+- Bug fixes
+- Stability updates
+
 ## 1.9.16
 
 - Auto Pageview Tracking added
